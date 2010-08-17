@@ -22,6 +22,13 @@
 <?  if($found) { ?>
 <div><? include $page.".html";?></div>
 <?  } ?>
-<div id="footer">&#169; Dan Kordik 2010 - <a href="http://github.com/dkordik/portfolio">Source</a></div>
+<div id="footer">&#169; Dan Kordik 2010 - <a href="http://github.com/dkordik/portfolio">Source</a> - 
+    
+<script language="javascript" type="text/javascript">
+    var username="dkordik";
+    var domain="gmail.com";
+    document.write("<a href='mailto:"+username+"@"+domain+"'>Contact</a>");
+</script>
+</div>
 </body>
 </html>
