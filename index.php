@@ -12,8 +12,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="shortcut icon" href="favicon.ico">
-    <script src="typeface/typeface-0.14.js"></script>
-    <script src="typeface/helvetiker_regular.typeface.js"></script>
+    <script src="javascripts/typeface/typeface-0.14.js"></script>
+    <script src="javascripts/typeface/helvetiker_regular.typeface.js"></script>
 </head>
 <body id="<?= $found ? $page."\" class=\"section" : "front" ?>">
 <div class="typeface-js nav">
