@@ -88,6 +88,13 @@ body.section {
 #front .nav a {
     background-position:16px -78px;
     background-repeat:no-repeat;
+    display:block;
+    width:320px;
+    height:59px;
+    padding:20px 130px 5px;
+    font-size:30pt;
+    letter-spacing: -1pt;
+    margin-bottom:18px;
 }
 
 .nav a[href="TheBlackMarket"] { background-image:url(images/blackmarket-icon.gif); }
@@ -159,17 +166,7 @@ body.section {
     max-width:800px;
 }
 
-#front a {
-    display:block;
-    width:320px;
-    height:59px;
-    padding:20px 130px 5px;
-    font-size:30pt;
-    letter-spacing: -1pt;
-    margin-bottom:18px;
-}
-
-#front h1 a {
+#front .nav h1 a {
     font-size:40pt;
     padding:0;
     width:auto;
@@ -224,6 +221,17 @@ div.screenshots dd {
 
 div.screenshots a img {
     border:none;
+}
+
+#footer {
+    color:#555;
+    font-size:12px;
+    margin-top:50px;
+    margin-bottom:40px;
+}
+
+#footer a {
+    color:#555;
 }
 
 

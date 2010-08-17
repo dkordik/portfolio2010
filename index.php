@@ -22,5 +22,6 @@
 <?  if($found) { ?>
 <div><? include $page.".html";?></div>
 <?  } ?>
+<div id="footer">&#169; Dan Kordik 2010 - <a href="http://github.com/dkordik/portfolio">Source</a></div>
 </body>
 </html>
