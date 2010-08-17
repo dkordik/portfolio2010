@@ -17,18 +17,11 @@
 </head>
 <body id="<?= $found ? $page."\" class=\"section" : "front" ?>">
 <div class="typeface-js nav">
-<?  include "front.html";?>
+<?  include "front.html" ?>
 </div>
 <?  if($found) { ?>
-<div><? include $page.".html";?></div>
+<div><? include $page.".html" ?></div>
 <?  } ?>
-<div id="footer">&#169; Dan Kordik 2010 - <a href="http://github.com/dkordik/portfolio">Source</a> - 
-    
-<script language="javascript" type="text/javascript">
-    var username="dkordik";
-    var domain="gmail.com";
-    document.write("<a href='mailto:"+username+"@"+domain+"'>Contact</a>");
-</script>
-</div>
+<? include "footer.html" ?>
 </body>
 </html>
