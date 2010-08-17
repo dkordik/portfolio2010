@@ -1,0 +1,229 @@
+body {
+    background-color:#222;
+    color:#fff;
+    font-family: Helvetica, "Helvetica Neue", Arial;
+    margin-left:120px;
+    margin-top:60px;
+    min-width:700px;
+}
+
+.nav, .section h2, .section h3 {
+    font-family:Helvetiker;
+}
+
+h1 {
+    font-size:40pt;
+    font-weight:normal;
+    letter-spacing: -2.5pt;
+    cursor:default;
+}
+
+.nav a {
+    text-decoration:none;
+    color:white;
+    background-color:#292929;
+    -moz-border-radius:2px 2px 0 0;
+    -webkit-border-radius:2px 2px 0 0;
+}
+
+.nav a:hover {
+    color:#a3cfe4;
+    background-color:#002b3f;
+}
+
+.nav h1 a {
+    background-color:#222;
+}
+
+body.section {
+    margin-top:0px;
+}
+
+.section .nav {
+    position:relative;
+    top:6px;
+}
+
+#TheBlackMarket .nav a[href="TheBlackMarket"],
+#Scrumy .nav a[href="Scrumy"],
+#Def .nav a[href="Def"],
+#Aftervibe .nav a[href="Aftervibe"] {
+    text-indent:-9999px;
+    background-image:none;
+    padding-bottom:10px;
+}
+
+#TheBlackMarket .nav a[href="TheBlackMarket"]:hover,
+#Scrumy .nav a[href="Scrumy"]:hover,
+#Def .nav a[href="Def"]:hover,
+#Aftervibe .nav a[href="Aftervibe"]:hover {
+    cursor:default;
+    background-color:#292929;
+}
+
+#TheBlackMarket .nav a[href="TheBlackMarket"],
+#TheBlackMarket .nav a[href="TheBlackMarket"]:hover,
+.nav a[href="TheBlackMarket"]:hover {
+    background-color:#000;
+}
+
+#Scrumy .nav a[href="Scrumy"],
+#Scrumy .nav a[href="Scrumy"]:hover,
+.nav a[href="Scrumy"]:hover {
+    background-color:#7E81B9;
+}
+
+#Def .nav a[href="Def"],
+#Def .nav a[href="Def"]:hover,
+.nav a[href="Def"]:hover {
+    background-color:#323298;
+}
+
+#Aftervibe .nav a[href="Aftervibe"],
+#Aftervibe .nav a[href="Aftervibe"]:hover,
+.nav a[href="Aftervibe"]:hover {
+    background-color:#71001C;
+}
+
+#front .nav a {
+    background-position:16px -78px;
+    background-repeat:no-repeat;
+}
+
+.nav a[href="TheBlackMarket"] { background-image:url(images/blackmarket-icon.gif); }
+.nav a[href="Scrumy"] { background-image:url(images/scrumy-icon.png); }
+.nav a[href="Def"] { background-image:url(images/def-icon.gif); }
+.nav a[href="Aftervibe"] { background-image:url(images/aftervibe-icon.gif); }
+
+.section .nav a {
+    background-position:5px 2px;
+    background-repeat:no-repeat;
+}
+
+.section .nav:hover a {
+    background-position:5px -33px;
+}
+
+#TheBlackMarket {
+    background: -moz-linear-gradient(rgb(34,34,34) 35px, rgb(0, 0, 0) 0%, rgb(34,34,34) 50%) no-repeat #222; 
+    background: -webkit-gradient(linear, 0 5, left bottom, color-stop(0.05, #222), color-stop(0.05, rgb(0, 0, 0)), color-stop(50%, #222)) no-repeat #222; 
+}
+#Scrumy {
+    background: -moz-linear-gradient(rgb(34,34,34) 35px, rgb(126,129,185) 0%, rgb(34,34,34) 20%) no-repeat #222;
+    background: -webkit-gradient(linear, 0 -5, left bottom, color-stop(0.05, #222), color-stop(0.05, rgb(126,129,185)), color-stop(20%, #222)) no-repeat #222; 
+}
+#Def {
+    background: -moz-linear-gradient(rgb(34,34,34) 35px, rgb(51,51,153) 0%, rgb(34,34,34) 30%) no-repeat #222; 
+    background: -webkit-gradient(linear, 0 8, left bottom, color-stop(0.05, #222), color-stop(0.05, rgb(51,51,153)), color-stop(30%, #222)) no-repeat #222; 
+}
+#Aftervibe {
+    background: -moz-linear-gradient(rgb(34,34,34) 35px, rgb(115,0,28) 0%, rgb(34,34,34) 20%) no-repeat #222; 
+    background: -webkit-gradient(linear, 0 -4, left bottom, color-stop(0.05, #222), color-stop(0.05, rgb(115,0,28)), color-stop(20%, #222)) no-repeat #222; 
+}
+
+.section .nav h1 {
+    margin-left:-110px;
+    letter-spacing: -1pt;
+    font-size:12pt;
+    display:inline;
+    width:105px;
+    margin-top:13px;
+}
+
+.section .nav h1 a {
+    font-size:12pt;
+    background-color:#222;
+    padding:0;
+    display:inline;
+}
+
+.section h2 {
+    font-size:30pt;
+    font-weight:normal;
+    letter-spacing:-1pt;
+    margin-bottom:0px;
+}
+
+.section h3 {
+    margin-top:0;
+    text-transform:uppercase;
+    font-size:9pt;
+    font-weight:normal;
+}
+
+.section p {
+    font-size:10pt;
+}
+
+.section div {
+    max-width:800px;
+}
+
+#front a {
+    display:block;
+    width:320px;
+    height:59px;
+    padding:20px 130px 5px;
+    font-size:30pt;
+    letter-spacing: -1pt;
+    margin-bottom:18px;
+}
+
+#front h1 a {
+    font-size:40pt;
+    padding:0;
+    width:auto;
+    cursor:default;
+}
+
+#front h1 a:hover {
+    background-color:#222;
+}
+
+.section .nav a {
+    display:inline-block;
+    width:105px;
+    padding:6px 20px 3px 40px;
+    font-size:9.9pt;
+    padding-top:-10px;
+}
+
+a.launch {
+    color:#00ff9c;
+    size:12pt;
+    font-weight:bold;
+    background-image:url("images/launch-icon.gif");
+    background-position:right center;
+    background-repeat:no-repeat;
+    padding-right:15px;
+}
+
+div dl, div dt, div dd {
+    padding:0;
+    margin:0;
+}
+
+div.screenshots {
+    margin-top:60px;
+}
+
+div.screenshots dl {
+    display:inline-block;
+    margin-right:35px;
+    margin-bottom:35px;
+}
+
+#Aftervibe div.screenshots dl {
+    margin-right:14px;
+}
+
+div.screenshots dd {
+    font-size:11pt;
+    margin-top:13px;
+}
+
+div.screenshots a img {
+    border:none;
+}
+
+

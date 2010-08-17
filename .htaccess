@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^$ /index.php
+RewriteRule ^([a-zA-Z\/\ \&\-]*)$ /index.php?$1
