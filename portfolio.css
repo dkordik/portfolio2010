@@ -185,16 +185,6 @@ body.section {
     padding-top:-10px;
 }
 
-a.launch {
-    color:#00ff9c;
-    size:12pt;
-    font-weight:bold;
-    background-image:url("images/launch-icon.gif");
-    background-position:right center;
-    background-repeat:no-repeat;
-    padding-right:15px;
-}
-
 div dl, div dt, div dd {
     padding:0;
     margin:0;
