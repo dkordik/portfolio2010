@@ -7,7 +7,7 @@ body {
     min-width:700px;
 }
 
-.nav, .section h2, .section h3 {
+.nav, .section h2, .section h3, .section h4 {
     font-family:Helvetiker;
 }
 
@@ -44,6 +44,7 @@ body.section {
     top:6px;
 }
 
+#OnSuite .nav a[href="OnSuite"],
 #TheBlackMarket .nav a[href="TheBlackMarket"],
 #Scrumy .nav a[href="Scrumy"],
 #Def .nav a[href="Def"],
@@ -53,12 +54,19 @@ body.section {
     padding-bottom:8px;
 }
 
+#OnSuite .nav a[href="OnSuite"]:hover,
 #TheBlackMarket .nav a[href="TheBlackMarket"]:hover,
 #Scrumy .nav a[href="Scrumy"]:hover,
 #Def .nav a[href="Def"]:hover,
 #Aftervibe .nav a[href="Aftervibe"]:hover {
     cursor:default;
     background-color:#292929;
+}
+
+#OnSuite .nav a[href="OnSuite"],
+#OnSuite .nav a[href="OnSuite"]:hover,
+.nav a[href="OnSuite"]:hover {
+    background-color:#AA2452;
 }
 
 #TheBlackMarket .nav a[href="TheBlackMarket"],
@@ -97,6 +105,7 @@ body.section {
     margin-bottom:18px;
 }
 
+.nav a[href="OnSuite"] { background-image:url(images/onsuite-icon.png); }
 .nav a[href="TheBlackMarket"] { background-image:url(images/blackmarket-icon.gif); }
 .nav a[href="Scrumy"] { background-image:url(images/scrumy-icon.png); }
 .nav a[href="Def"] { background-image:url(images/def-icon.gif); }
@@ -111,13 +120,17 @@ body.section {
     background-position:5px -33px;
 }
 
+#OnSuite {
+    background: -moz-linear-gradient(rgb(34,34,34) 35px, #AA2452 0%, rgb(34,34,34) 15%) no-repeat #222; 
+    background: -webkit-gradient(linear, 0 -25, left bottom, color-stop(0.05, #222), color-stop(0.05, #AA2452), color-stop(15%, #222)) no-repeat #222; 
+}
 #TheBlackMarket {
     background: -moz-linear-gradient(rgb(34,34,34) 35px, rgb(0, 0, 0) 0%, rgb(34,34,34) 50%) no-repeat #222; 
     background: -webkit-gradient(linear, 0 0, left bottom, color-stop(0.05, #222), color-stop(0.05, rgb(0, 0, 0)), color-stop(50%, #222)) no-repeat #222; 
 }
 #Scrumy {
     background: -moz-linear-gradient(rgb(34,34,34) 35px, rgb(126,129,185) 0%, rgb(34,34,34) 20%) no-repeat #222;
-    background: -webkit-gradient(linear, 0 -10, left bottom, color-stop(0.05, #222), color-stop(0.05, rgb(126,129,185)), color-stop(20%, #222)) no-repeat #222; 
+    background: -webkit-gradient(linear, 0 -9, left bottom, color-stop(0.05, #222), color-stop(0.05, rgb(126,129,185)), color-stop(20%, #222)) no-repeat #222; 
 }
 #Def {
     background: -moz-linear-gradient(rgb(34,34,34) 35px, rgb(51,51,153) 0%, rgb(34,34,34) 30%) no-repeat #222; 
@@ -131,14 +144,14 @@ body.section {
 .section .nav h1 {
     margin-left:-110px;
     letter-spacing: -1pt;
-    font-size:12pt;
+    font-size:15px;
     display:inline;
     width:105px;
     margin-top:13px;
 }
 
 .section .nav h1 a {
-    font-size:12pt;
+    font-size:15px;
     background-color:#222;
     padding:0;
     display:inline;
@@ -156,6 +169,14 @@ body.section {
     text-transform:uppercase;
     font-size:9pt;
     font-weight:normal;
+}
+
+.section h4 {
+    margin-bottom:-5px;
+    margin-top:40px;
+    font-size:18pt;
+    font-weight:normal;
+    letter-spacing:-1pt;
 }
 
 .section p {
@@ -179,8 +200,8 @@ body.section {
 
 .section .nav a {
     display:inline-block;
-    width:105px;
-    padding:6px 20px 3px 40px;
+    width:100px;
+    padding:6px 15px 3px 40px;
     font-size:9.9pt;
     padding-top:-10px;
 }
@@ -192,6 +213,10 @@ div dl, div dt, div dd {
 
 div.screenshots {
     margin-top:60px;
+}
+
+#OnSuite div.screenshots {
+    margin-top:30px;
 }
 
 div.screenshots dl {
