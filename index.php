@@ -1,7 +1,7 @@
 <?
     if (isset($_SERVER['QUERY_STRING'])) {
         $page=$_SERVER['QUERY_STRING'];
-        $allowed=array( "OnSuite", "TheBlackMarket", "Scrumy", "Def", "Aftervibe");
+        $allowed=array( "Scrumy", "OnSuite", "TheBlackMarket", "Def", "Aftervibe");
         $found=in_array($page, $allowed);
     }
 ?>
